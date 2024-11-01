@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    width: 60%;
+}
+header{
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+.contact-info{
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    padding: 10px;
+    /* rgba (red, green, blue, alpha) alpha is the opacity */
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.412);
+}
+.job{
+    margin-bottom: 25px;
+}
+.job-title{
+    font-weight: 800;
+}
+.job-date{
+    font-style: italic;
+}
+.skills-list{
+    list-style-type: none;
+    /* Unset resets the property to it's inherited value from it's parent porperty */
+    padding-left: unset;
+}
+.degree{
+    font-weight: 800;
+}
